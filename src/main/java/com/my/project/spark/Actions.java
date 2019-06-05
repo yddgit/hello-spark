@@ -42,6 +42,8 @@ public class Actions {
 			//rdd.countByKey(); // not found ?
 			// 12.foreach 对集合的每个元素运行指定的函数，通常用于更新Accumulator或和外部存储系统进行交互
 			// 注意不要在foreach循环外修改Accumulator的值
+			// Spark还提供了一些action的异步版本，如foreachAsync，它会立即返回FutureAction给调用方不会阻塞
+			// 这可用于管理和等待操作的异步执行
 		}
 	}
 

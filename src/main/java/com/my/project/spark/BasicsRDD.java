@@ -29,7 +29,7 @@ public class BasicsRDD {
 			System.out.println("total length: " + totalLength);
 
 			// Spark的API重度依赖于传递function给driver程序，以让这些function能在集群上运行
-			// Java API的接口都这org.apache.spark.api.java.function包下面
+			// Java API的接口都在org.apache.spark.api.java.function包下面
 			// 有两种方式创建function:
 			// 1. 在自己的类中实现Function接口，可以是匿名类或命名类，然后将其实例传递给Spark
 			// 2.使用lambda表达式（推荐）

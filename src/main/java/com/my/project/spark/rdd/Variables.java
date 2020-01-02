@@ -1,4 +1,4 @@
-package com.my.project.spark;
+package com.my.project.spark.rdd;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
